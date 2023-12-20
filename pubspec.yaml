@@ -1,0 +1,65 @@
+name: retsept
+description: retsept app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  # font uchun foydalanildi
+  google_fonts: ^6.1.0
+
+  # local data uchun
+  shared_preferences: ^2.2.2
+
+  # State management uchun
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  equatable: ^2.0.5
+
+  # Xotiradan image olish uchun foydalanildi
+  image_picker: ^1.0.5
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  file_picker: ^6.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+  freezed: ^2.4.6
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #         weight: 700

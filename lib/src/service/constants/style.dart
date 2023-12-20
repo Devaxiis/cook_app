@@ -1,0 +1,5 @@
+sealed class AppStyle{
+
+
+
+}
